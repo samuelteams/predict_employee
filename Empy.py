@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import datetime
 
-model = load_model('trained_model')
+model = load_model('trained_model_1')
 
 def predict(model, input_df):
     predictions_df = predict_model(estimator=model, data=input_df)
